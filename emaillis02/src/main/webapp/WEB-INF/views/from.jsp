@@ -11,18 +11,17 @@
 		메일 리스트에 가입하려면,<br> 아래 항목을 기입하고 등록 버튼을 클릭하세요.
 	</p>
 
-	<form action="/emaillist01/register.jsp" method="post">
-		성 : <input type="text" name="firstName" value=""> <br>
-
-		이름 : <input type="text" name="lastName" value=""> <br>
-
-		이메일 : <input type="text" name="email" value=""> <br> <input
+	<form action="/emaillist02/el" method="post">
+		<input = type="hidden" name="a" value="add"> 성 : <input
+			type="text" name="firstName" value=""> <br> 이름 : <input
+			type="text" name="lastName" value=""> <br> 이메일 : <input
+			type="text" name="email" value=""> <br> <input
 			type="submit" value="등록">
 	</form>
 	<br>
 
 	<p>
-		<a href="/emaillist01">리스트 보기</a>
+		<a href="/emaillist02/el">리스트 보기</a>
 	</p>
 </body>
 </html>

@@ -7,17 +7,16 @@
 		<artifactId>servlet-practices</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>emaillist02</artifactId>
+	<artifactId>jstel</artifactId>
 	<packaging>war</packaging>
 	
+	<properties>
+		<project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
+		<maven.compiler.source>21</maven.compiler.source>
+		<maven.compiler.target>21</maven.compiler.target>
+	</properties>
+
 	<dependencies>
-		<!-- mariadb jdbc driver -->
-		<dependency>
-			<groupId>org.mariadb.jdbc</groupId>
-			<artifactId>mariadb-java-client</artifactId>
-			<version>3.5.2</version>
-		</dependency>
-			
 		<!-- servlet api -->
 		<dependency>
 			<groupId>jakarta.servlet</groupId>
@@ -36,7 +35,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>emaillist02</finalName>
+		<finalName>jstel</finalName>
 	</build>
 	
 </project>

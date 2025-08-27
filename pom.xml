@@ -9,6 +9,8 @@
 	<modules>
 
 	<module>helloweb</module>
-	<module>emaillis02</module>
+	<module>emaillist02</module>
+	<module>mysite</module>
+	<module>jstel</module>
 	</modules>
 </project>
