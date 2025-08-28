@@ -9,7 +9,7 @@
 	</parent>
 	<artifactId>jstel</artifactId>
 	<packaging>war</packaging>
-	
+
 	<properties>
 		<project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
 		<maven.compiler.source>21</maven.compiler.source>
@@ -17,6 +17,24 @@
 	</properties>
 
 	<dependencies>
+
+		<!-- JSTL -->
+		<dependency>
+			<groupId>jakarta.el</groupId>
+			<artifactId>jakarta.el-api</artifactId>
+			<version>6.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>jakarta.servlet.jsp.jstl</groupId>
+			<artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.glassfish.web</groupId>
+			<artifactId>jakarta.servlet.jsp.jstl</artifactId>
+			<version>3.0.1</version>
+		</dependency>
+
 		<!-- servlet api -->
 		<dependency>
 			<groupId>jakarta.servlet</groupId>
@@ -37,5 +55,5 @@
 	<build>
 		<finalName>jstel</finalName>
 	</build>
-	
+
 </project>
